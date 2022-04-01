@@ -1,6 +1,6 @@
 # Social tree
 
-In this project I was challenged to make a Social Tree using HTML and CSS. 
+In this project I was challenged to make a Social Tree using HTML and CSS. I added responsiveness. 
 
 See the <a href="https://lissandrarodrigues.github.io/social-tree/"> deployment</a>.
 

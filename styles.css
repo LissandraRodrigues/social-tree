@@ -1,0 +1,90 @@
+:root {
+    --body-bg-color: #FAF7FD;
+    --purple: #BB99DD;
+    --hover: #00FF00;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--body-bg-color);
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--purple);
+    flex-direction: column;
+}
+
+footer {
+    margin-top: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo {
+    width: 200px;
+    position: absolute;
+    z-index: 2;
+}
+
+.border {
+    z-index: 1;
+    width: 213px;
+    height: 213px;
+    border: 2px solid var(--purple);
+}
+
+.photo, .border {
+    border-radius: 50%;
+}
+
+.instagram-user {
+    margin: 15px 0px 35px 0px;
+}
+
+li {
+    list-style: none;
+    height: 50px; 
+    width: 400px;
+    border: 2px solid var(--purple);
+    border-radius: 4px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+li:hover {
+    border: 2px solid var(--hover);
+}
+
+.links a {
+    text-decoration: none;
+    color: var(--purple);
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+}
+
+.social-media {
+    margin-top: 70px;
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+}

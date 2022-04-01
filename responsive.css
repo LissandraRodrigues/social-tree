@@ -1,0 +1,28 @@
+@media (max-width: 400px) {
+
+    li {
+        width: 250px;
+    }
+
+    .photo {
+        width: 150px;
+    }
+
+    .border {
+        width: 163px;
+        height: 163px;
+    }
+
+}
+
+@media (max-width: 270px) {
+
+    li {
+        width: 200px;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+}
